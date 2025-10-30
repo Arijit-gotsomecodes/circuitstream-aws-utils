@@ -1,0 +1,41 @@
+{
+  "name": "circuitstream-aws-utils",
+  "version": "1.0.0",
+  "description": "AWS service integrations for electronic component inventory management with DynamoDB, S3, Rekognition, SNS, and Cognito support",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "aws",
+    "electronics",
+    "components",
+    "inventory",
+    "rekognition",
+    "dynamodb",
+    "s3",
+    "sns",
+    "cognito",
+    "component-management",
+    "stock-alerts",
+    "image-recognition"
+  ],
+  "author": "CircuitStream",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/circuitstream/aws-utils"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.511.0",
+    "@aws-sdk/client-s3": "^3.511.0",
+    "@aws-sdk/client-rekognition": "^3.511.0",
+    "@aws-sdk/client-sns": "^3.511.0",
+    "@aws-sdk/lib-dynamodb": "^3.511.0",
+    "@aws-sdk/s3-request-presigner": "^3.511.0"
+  },
+  "peerDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/client-s3": "^3.0.0",
+    "@aws-sdk/client-rekognition": "^3.0.0",
+    "@aws-sdk/client-sns": "^3.0.0"
+  }
+}
