@@ -4,6 +4,9 @@
   "description": "AWS service integrations for electronic component inventory management with DynamoDB, S3, Rekognition, SNS, and Cognito support",
   "main": "index.js",
   "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "keywords": [
     "aws",
     "electronics",
